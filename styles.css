@@ -2,24 +2,29 @@
   margin-top: 3rem;
   color: #212121;
   text-align: center;
-  font-family: HeadLineA;
-  font-size: 38vmax;
+  font-family: "Helvetica Neue";
+  font-weight: 900;
+  line-height: 76%;
+  letter-spacing: -30px;
+  font-size: 30vmax;
   font-style: normal;
-  font-weight: 400;
-  line-height: 73.111%;
-  letter-spacing: 6px;
   background-image: url("./images/wood-text-fill.jpg");
-  background-position: center;
+  background-position: bottom center;
   background-size: cover;
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  padding-bottom: 0.9rem;
+  padding-bottom: 14rem;
   transition: transform 0.3s ease-out;
 }
 
+span {
+  letter-spacing: -19px;
+}
+
 .image-gallery {
-  background-color: rgba(59, 59, 59, 0.873);
+  padding-top: 5rem;
+  background-color: rgba(196, 196, 196, 0.873);
 }
 
 .grid {
@@ -34,10 +39,11 @@
   flex-direction: row;
   flex-wrap: wrap;
 
-  border: outset 0.7rem rgb(131, 128, 126);
+  border: solid 0.7rem rgb(48, 48, 48);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
 
   background-image: url(./images/wood-pattern.jpg);
-  background-size: cover;
+  background-size: contain;
   background-position: center;
 }
 
@@ -162,6 +168,12 @@
 
 @media (max-width: 930px) {
   .heroText {
-    font-size: 36vw;
+    font-size: 33vw;
+    padding-bottom: 5rem;
+    letter-spacing: -21px;
+  }
+
+  span {
+    letter-spacing: -19px;
   }
 }
