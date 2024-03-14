@@ -8,7 +8,7 @@
   font-weight: 400;
   line-height: 73.111%;
   letter-spacing: 6px;
-  background-image: url("./wood-text-fill.jpg");
+  background-image: url("./images/wood-text-fill.jpg");
   background-position: center;
   background-size: cover;
   background-clip: text;
@@ -36,7 +36,7 @@
 
   border: outset 0.7rem rgb(131, 128, 126);
 
-  background-image: url(./wood-pattern.jpg);
+  background-image: url(./images/wood-pattern.jpg);
   background-size: cover;
   background-position: center;
 }
