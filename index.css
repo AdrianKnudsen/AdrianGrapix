@@ -1,11 +1,13 @@
 :root {
-  --Primary: #323232;
+  --Primary: #2c2c2c;
   --Secondary: #;
   --Tertiary: #;
   --Lorem: #e0e0e0;
 }
 
-* {
+*,
+*:before,
+*:after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;

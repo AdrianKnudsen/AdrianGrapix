@@ -3,22 +3,165 @@
   color: #212121;
   text-align: center;
   font-family: HeadLineA;
-  font-size: 600px;
+  font-size: 38vmax;
   font-style: normal;
   font-weight: 400;
   line-height: 73.111%;
   letter-spacing: 6px;
-  background-image: url("./text-fill-img.jpeg");
-  background-position: center bottom;
+  background-image: url("./wood-text-fill.jpg");
+  background-position: center;
   background-size: cover;
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  padding-bottom: 1.2rem;
+  padding-bottom: 0.9rem;
   transition: transform 0.3s ease-out;
 }
 
-p {
-  font-size: 2rem;
-  color: bisque;
+.image-gallery {
+  background-color: rgba(59, 59, 59, 0.873);
+}
+
+.grid {
+  width: 100%;
+  max-width: 60rem;
+  margin-left: auto;
+  margin-right: auto;
+
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  border: outset 0.7rem rgb(131, 128, 126);
+
+  background-image: url(./wood-pattern.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.grid-block {
+  width: 50%;
+  min-height: 11.25rem;
+  padding: 1rem;
+}
+
+.image-grid {
+  -webkit-transform: rotateX(45deg) rotateZ(45deg);
+  transform: rotateX(45deg) rotateZ(45deg);
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
+  transition: transform 1s;
+}
+
+.image-grid .tile-link:hover .tile-img {
+  top: -1rem;
+  left: -1rem;
+}
+
+.image-grid .tile-img {
+  position: relative;
+  top: 0;
+  left: 0;
+  -webkit-transition-property: opacity, top, left, box-shadow;
+  transition-property: opacity, top, left, box-shadow;
+}
+
+.tile-link {
+  display: block;
+}
+
+.tile-link:hover .tile-img {
+  opacity: 1;
+}
+
+.tile-link:hover .tile-img-link {
+  display: block;
+}
+
+.tile-link:hover .tile-img-link:hover .tile-img {
+  opacity: 0.5;
+}
+
+.tile-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  opacity: 1;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-duration: 0.125s;
+  transition-duration: 0.125s;
+  -webkit-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
+}
+.tile-link:hover .tile-img1 {
+  box-shadow: 5px 5px rgba(232, 232, 232, 0.4),
+    10px 10px rgba(209, 209, 209, 0.3), 15px 15px rgba(173, 173, 173, 0.2),
+    20px 20px rgba(145, 145, 145, 0.1), 25px 25px rgba(66, 66, 66, 0.05);
+}
+.tile-link:hover .tile-img2 {
+  box-shadow: 5px 5px rgba(232, 232, 232, 0.4),
+    10px 10px rgba(209, 209, 209, 0.3), 15px 15px rgba(173, 173, 173, 0.2),
+    20px 20px rgba(145, 145, 145, 0.1), 25px 25px rgba(66, 66, 66, 0.05);
+}
+
+.tile-link:hover .tile-img3 {
+  box-shadow: 5px 5px rgba(232, 232, 232, 0.4),
+    10px 10px rgba(209, 209, 209, 0.3), 15px 15px rgba(173, 173, 173, 0.2),
+    20px 20px rgba(145, 145, 145, 0.1), 25px 25px rgba(66, 66, 66, 0.05);
+}
+
+.tile-link:hover .tile-img4 {
+  box-shadow: 5px 5px rgba(232, 232, 232, 0.4),
+    10px 10px rgba(209, 209, 209, 0.3), 15px 15px rgba(173, 173, 173, 0.2),
+    20px 20px rgba(145, 145, 145, 0.1), 25px 25px rgba(66, 66, 66, 0.05);
+}
+
+.tile-link:hover .tile-img5 {
+  box-shadow: 5px 5px rgba(232, 232, 232, 0.4),
+    10px 10px rgba(209, 209, 209, 0.3), 15px 15px rgba(173, 173, 173, 0.2),
+    20px 20px rgba(145, 145, 145, 0.1), 25px 25px rgba(66, 66, 66, 0.05);
+}
+
+.tile-link:hover .tile-img6 {
+  box-shadow: 5px 5px rgba(232, 232, 232, 0.4),
+    10px 10px rgba(209, 209, 209, 0.3), 15px 15px rgba(173, 173, 173, 0.2),
+    20px 20px rgba(145, 145, 145, 0.1), 25px 25px rgba(66, 66, 66, 0.05);
+}
+
+.tile-link:hover .tile-img7 {
+  box-shadow: 5px 5px rgba(232, 232, 232, 0.4),
+    10px 10px rgba(209, 209, 209, 0.3), 15px 15px rgba(173, 173, 173, 0.2),
+    20px 20px rgba(145, 145, 145, 0.1), 25px 25px rgba(66, 66, 66, 0.05);
+}
+
+.tile-link:hover .tile-img8 {
+  box-shadow: 5px 5px rgba(232, 232, 232, 0.4),
+    10px 10px rgba(209, 209, 209, 0.3), 15px 15px rgba(173, 173, 173, 0.2),
+    20px 20px rgba(145, 145, 145, 0.1), 25px 25px rgba(66, 66, 66, 0.05);
+}
+
+.tile-link:hover .tile-img9 {
+  box-shadow: 5px 5px rgba(232, 232, 232, 0.4),
+    10px 10px rgba(209, 209, 209, 0.3), 15px 15px rgba(173, 173, 173, 0.2),
+    20px 20px rgba(145, 145, 145, 0.1), 25px 25px rgba(66, 66, 66, 0.05);
+}
+
+.tile-link:hover .tile-img10 {
+  box-shadow: 5px 5px rgba(232, 232, 232, 0.4),
+    10px 10px rgba(209, 209, 209, 0.3), 15px 15px rgba(173, 173, 173, 0.2),
+    20px 20px rgba(145, 145, 145, 0.1), 25px 25px rgba(66, 66, 66, 0.05);
+}
+
+.footer-content {
+  background-color: rgb(17, 17, 17);
+  width: 100%;
+}
+
+@media (max-width: 930px) {
+  .heroText {
+    font-size: 36vw;
+  }
 }
