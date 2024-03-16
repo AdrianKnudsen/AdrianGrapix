@@ -6,7 +6,7 @@
   font-weight: 900;
   line-height: 76%;
   letter-spacing: -30px;
-  font-size: 30vmax;
+  font-size: 31vmax;
   font-style: normal;
   background-image: url("./images/wood-text-fill.jpg");
   background-position: bottom center;
@@ -14,8 +14,8 @@
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  padding-bottom: 14rem;
   transition: transform 0.3s ease-out;
+  padding-bottom: 9.6rem;
 }
 
 span {
@@ -23,7 +23,7 @@ span {
 }
 
 .image-gallery {
-  padding-top: 5rem;
+  padding: 5rem 1rem 1rem 1rem;
   background-color: rgba(196, 196, 196, 0.873);
 }
 
@@ -43,7 +43,7 @@ span {
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
 
   background-image: url(./images/wood-pattern.jpg);
-  background-size: contain;
+  background-size: cover;
   background-position: center;
 }
 
@@ -169,8 +169,8 @@ span {
 @media (max-width: 930px) {
   .heroText {
     font-size: 33vw;
-    padding-bottom: 5rem;
     letter-spacing: -21px;
+    padding-bottom: 5rem;
   }
 
   span {
