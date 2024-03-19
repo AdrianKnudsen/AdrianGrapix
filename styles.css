@@ -1,3 +1,5 @@
+/*?--------------Hero Section-------------?*/
+
 .heroText {
   margin-top: 3rem;
   color: #212121;
@@ -21,6 +23,8 @@
 span {
   letter-spacing: -19px;
 }
+
+/*?--------------Gallery Section-------------?*/
 
 .image-gallery {
   padding: 5rem 1rem 1rem 1rem;
@@ -161,10 +165,39 @@ span {
     20px 20px rgba(145, 145, 145, 0.1), 25px 25px rgba(66, 66, 66, 0.05);
 }
 
+/*?--------------Image Gallery Display Section-------------?*/
+
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+  z-index: 10;
+  justify-content: center;
+  align-items: center;
+}
+
+.enlarged-img {
+  max-width: 90%;
+  max-height: 90%;
+  transition: transform 0.5s ease, width 0.5s ease, height 0.5s ease;
+  transform: scale(1);
+  z-index: 11;
+  border-radius: 3px;
+}
+
+/*?--------------Footer Section-------------?*/
+
 .footer-content {
   background-color: rgb(17, 17, 17);
   width: 100%;
 }
+
+/*?--------------@ Media Section-------------?*/
 
 @media (max-width: 930px) {
   .heroText {
