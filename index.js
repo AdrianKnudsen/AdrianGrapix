@@ -44,7 +44,7 @@ document.querySelectorAll(".tile-img").forEach((item) => {
     const enlargedImg = document.createElement("img");
     enlargedImg.setAttribute("src", this.src);
     enlargedImg.classList.add("enlarged-img");
-    enlargedImg.style.transform = "scale(0.1)";
+    enlargedImg.style.transform = "scale(0.01)";
 
     overlay.innerHTML = "";
     overlay.appendChild(enlargedImg);
@@ -59,7 +59,7 @@ document.getElementById("overlay").addEventListener("click", function (e) {
   e.stopPropagation();
   const enlargedImg = this.querySelector(".enlarged-img");
   if (enlargedImg) {
-    enlargedImg.style.transform = "scale(0.5)";
+    enlargedImg.style.transform = "scale(0.1)";
     setTimeout(() => {
       this.style.display = "none";
       enlargedImg.style.transform = "scale(1)";
