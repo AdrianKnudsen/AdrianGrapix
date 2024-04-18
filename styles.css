@@ -1,33 +1,37 @@
 /*?--------------Hero Section-------------?*/
 
+.heroSection {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
 .heroText {
-  margin-top: 3rem;
-  color: #212121;
-  text-align: center;
-  font-family: "Helvetica Neue";
-  font-weight: 900;
-  line-height: 76%;
-  letter-spacing: -30px;
-  font-size: 31vmax;
+  font-family: "Anton", sans-serif;
+  font-weight: 600;
   font-style: normal;
+  line-height: 76%;
+  letter-spacing: -20px;
+  font-size: clamp(5.5rem, 1.0108rem + 22.446vw, 25rem);
   background-image: url("./images/wood-text-fill.jpg");
-  background-position: bottom center;
+  background-position: center center;
   background-size: cover;
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
   transition: transform 0.3s ease-out;
-  padding-bottom: 9.6rem;
+  padding: 3rem 1rem 3rem 1rem;
+  text-transform: uppercase;
 }
 
 span {
-  letter-spacing: -19px;
+  letter-spacing: 1px;
 }
 
 /*?--------------Gallery Section-------------?*/
 
 .image-gallery {
-  padding: 5rem 1rem 1rem 1rem;
+  padding: 5rem 1rem 4rem 1rem;
   background-color: rgba(196, 196, 196, 0.873);
 }
 
@@ -53,7 +57,7 @@ span {
 
 .grid-block {
   width: 50%;
-  min-height: 11.25rem;
+  max-height: 100%;
   padding: 1rem;
 }
 
@@ -201,12 +205,8 @@ span {
 
 @media (max-width: 930px) {
   .heroText {
-    font-size: 33vw;
-    letter-spacing: -21px;
-    padding-bottom: 5rem;
   }
 
   span {
-    letter-spacing: -19px;
   }
 }
