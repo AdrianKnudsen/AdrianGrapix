@@ -1,9 +1,8 @@
 /*?--------------Hero Section-------------?*/
 
 .heroSection {
-  display: flex;
-  align-content: center;
-  justify-content: center;
+  margin-left: auto;
+  text-align: center;
 }
 
 .heroText {
@@ -11,8 +10,8 @@
   font-weight: 600;
   font-style: normal;
   line-height: 76%;
-  letter-spacing: -20px;
-  font-size: clamp(5.5rem, 1.0108rem + 22.446vw, 25rem);
+  letter-spacing: -14px;
+  font-size: clamp(6.5rem, 1.0108rem + 22.446vw, 25rem);
   background-image: url("./images/wood-text-fill.jpg");
   background-position: center center;
   background-size: cover;
@@ -25,7 +24,7 @@
 }
 
 span {
-  letter-spacing: 1px;
+  letter-spacing: -15px;
 }
 
 /*?--------------Gallery Section-------------?*/
