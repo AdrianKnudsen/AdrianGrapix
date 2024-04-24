@@ -1,7 +1,9 @@
 /*?--------------Hero Section-------------?*/
 
 .heroSection {
-  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
   text-align: center;
 }
 
@@ -201,11 +203,3 @@ span {
 }
 
 /*?--------------@ Media Section-------------?*/
-
-@media (max-width: 930px) {
-  .heroText {
-  }
-
-  span {
-  }
-}
