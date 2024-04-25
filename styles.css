@@ -197,9 +197,32 @@ span {
 
 /*?--------------Footer Section-------------?*/
 
-.footer-content {
-  background-color: rgb(17, 17, 17);
+footer {
+  height: 15%;
   width: 100%;
+  background-color: var(--Primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-content {
+  width: 80%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.4vmax;
+}
+
+footer p {
+  color: var(--Lorem);
+}
+
+footer a {
+  color: var(--Lorem);
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
 
 /*?--------------@ Media Section-------------?*/
